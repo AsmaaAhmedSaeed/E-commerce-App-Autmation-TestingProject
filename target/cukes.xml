@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="422.975">
+<testcase classname="F01_Register | user should be register his data to the system" name="user could register with Only Mandatory Data valid first name last name email password and confirm_password" time="15.501">
+<system-out><![CDATA[Given Go to Register Page...................................................passed
+When Enter valid "automation" "tester" "Tsst4@example.com" "P@ssw0rd" and "P@ssw0rd".passed
+And user press on register button...........................................passed
+Then System direct user to profile page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F01_Register | user should be register his data to the system" name="user could register with valid necessary and optional data" time="21.993">
+<system-out><![CDATA[Given Go to Register Page...................................................passed
+When user select female gender..............................................passed
+And Enter valid "automation" "tester" "Tssst4@example.com" "P@ssw0rd" and "P@ssw0rd".passed
+And Enter birth of day......................................................passed
+And Enter birth of Month....................................................passed
+And Enter birth of year.....................................................passed
+And user press on register button...........................................passed
+Then System direct user to profile page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_Login | users could use login functionality to open their accounts" name="user could login with valid email and password" time="13.032">
+<system-out><![CDATA[Given user go to login page.................................................passed
+When user login with "valid" "tsst4@example.com" and "P@ssw0rd".............passed
+And user press on login button..............................................passed
+Then user login to the system successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F03_Switch Currency | user could switch between the available currencies" name="user make sure about the default currency" time="9.631">
+<system-out><![CDATA[Given user will make sure that default currency is US_dollar................passed
+]]></system-out>
+</testcase>
+<testcase classname="F03_Switch Currency | user could switch between the available currencies" name="user could select any option from currency dropdown" time="11.281">
+<system-out><![CDATA[Given user go to dropdown currency..........................................passed
+When user select any option from dropdown...................................passed
+Then user will see option sign in all products and it is switched successfully.passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Hovering | user could hover on any option and select different categories" name="logged user could hover on Apparel option and select clothes category" time="18.573">
+<system-out><![CDATA[Given user go to login page.................................................passed
+When user login with "valid" "tsst4@example.com" and "P@ssw0rd".............passed
+And user press on login button..............................................passed
+Then user login to the system successfully..................................passed
+When user hover on Apparel option and select clothes category...............passed
+Then user move successfully to the clothes page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="F05_Search | users will be able to search for products with different parameters" name="user could search for product using full name" time="14.239">
+<system-out><![CDATA[When user clicks on search field............................................passed
+And user search with name of product........................................passed
+Then user could find relative results.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F05_Search | users will be able to search for products with different parameters" name="user could search for product using SKU" time="21.981">
+<system-out><![CDATA[When user clicks on search field............................................passed
+And user search with sku of product.........................................passed
+Then user could find the desired product....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F06_Slider Wrapper | guest user could click on slider wrapper" name="user could navigate successfully to related page when click on Nokia slider wrapper" time="14.074">
+<system-out><![CDATA[When user click on Nokia slider wrapper.....................................passed
+Then user navigate to Nokia related page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F06_Slider Wrapper | guest user could click on slider wrapper" name="user could navigate successfully to related page when click on Iphone slider wrapper" time="13.889">
+<system-out><![CDATA[When user click on Iphone slider wrapper....................................passed
+Then user navigate to Iphone related page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_Follow us links | 'Follow us' links open the corresponding websites" name="when user press on facebook icon,it should open the corresponding website" time="18.504">
+<system-out><![CDATA[When user click on facebook icon............................................passed
+Then user logged successfully to the facebook website.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_Follow us links | 'Follow us' links open the corresponding websites" name="when user press on twitter icon,it should open the corresponding website" time="16.425">
+<system-out><![CDATA[When user click on twitter icon.............................................passed
+Then user logged successfully to the twitter website........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_Follow us links | 'Follow us' links open the corresponding websites" name="when user press on news icon,it should open the corresponding website" time="11.588">
+<system-out><![CDATA[When user click on news icon................................................passed
+Then user logged successfully to the news website...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_Follow us links | 'Follow us' links open the corresponding websites" name="when user press on youtube icon,it should open the corresponding website" time="30.837">
+<system-out><![CDATA[When user click on youtube icon.............................................passed
+Then user logged successfully to the youtube website........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F08_WishList | logged user could add products to wishlist" name="products will added to wishlist when user click on add to wishlist from detailed page" time="22.664">
+<system-out><![CDATA[When user click on apple product............................................passed
+And user clicks on add to wishlist button from detailed product page........passed
+And user go to wish list page...............................................passed
+Then Apple product will added to wishlist...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F09_Shopping cart | logged user could add products to shopping cart" name="products will added to shopping cart when user click on add to shopping cart from home page" time="48.193">
+<system-out><![CDATA[When user click on add to cart button.......................................passed
+And Go to shopping cart page................................................passed
+Then phone product will added to shopping cart..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="F09_Shopping cart | logged user could add products to shopping cart" name="products will added to shopping cart when user click on add to shopping cart from detailed page" time="70.987">
+<system-out><![CDATA[When user clicks on add to cart button from HOME page.......................passed
+And user go to product detailed page........................................passed
+And clicks on add to cart button from detailed page.........................passed
+Then Apple product will added to shopping cart..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="F10_CheckOut | logged user could finish his order" name="user could checkout his order when he fill all required data" time="48.639">
+<system-out><![CDATA[Given Go to Register Page...................................................passed
+When Enter valid "automation" "tester" "test4@example.com" "P@ssw0rd" and "P@ssw0rd".passed
+And user press on register button...........................................passed
+Then System direct user to profile page.....................................passed
+Given user go to login page.................................................passed
+When user login with "valid" "test4@example.com" and "P@ssw0rd".............passed
+And user press on login button..............................................passed
+Then user login to the system successfully..................................passed
+When logged user press on jewelry category..................................passed
+And press add to cart to flower bracelet....................................passed
+And Go to shopping cart page................................................passed
+And Press on services terms and checkout button.............................passed
+And user fill the data of billing address press on continue button..........passed
+And user select Ground of shipping method and press continue................passed
+And user select Check_money for payment method and press continue...........passed
+And user press continue for payment information.............................passed
+And user press confirm for confirm order....................................passed
+Then order has been successfully processed..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
