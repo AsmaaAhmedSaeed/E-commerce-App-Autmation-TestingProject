@@ -26,3 +26,6 @@ SC8- logged user could add products to wishlist
 SC9- logged user could add products to Shopping cart
 
 SC10- logged user could finish his order checkout
+
+There are 1 attached file that show the result of all test Scenarios after running the project.
+![Test_Cases_Report (1)](https://user-images.githubusercontent.com/104741486/170146332-2181d935-5755-4833-b728-6b17f5223223.jpg)
