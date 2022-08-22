@@ -16,7 +16,6 @@ public class P01_Register {
     {
         return Hooks.driver.findElement(By.id("FirstName"));
     }
-
     public WebElement lastnameTXT()
     {
         return Hooks.driver.findElement(By.id("LastName"));
@@ -31,45 +30,36 @@ public class P01_Register {
     {
         return Hooks.driver.findElement(By.id("Password"));
     }
-
     public WebElement confirm_passwordTXT()
     {
         return Hooks.driver.findElement(By.id("ConfirmPassword"));
     }
-
     public WebElement click_register()
     {
         return Hooks.driver.findElement(By.id("register-button"));
     }
-
-    public WebElement pageBody()
+    public WebElement success_register()
     {
-        return  Hooks.driver.findElement(By.cssSelector("div[class=\"page-body\"]"));
-    }
-
-    public WebElement result()
-    {
-        return  Hooks.driver.findElement(By.cssSelector("div[class=\"result\"]"));
-    }
-
-    public WebElement messageError()
-    {
-        return  Hooks.driver.findElement(By.cssSelector("div[class=\"message-error validation-summary-errors\"]"));
+        return Hooks.driver.findElement(By.cssSelector("a[class=\"button-1 register-continue-button\"]"));
     }
     public WebElement Female_gender(){
         return Hooks.driver.findElement(By.id("gender-female"));
     }
-
     public WebElement Day_dropdown(){
         return Hooks.driver.findElement(By.cssSelector("select[name=\"DateOfBirthDay\"]"));
     }
+  //  public List<WebElement> Birth_Day(){
+   //     return Hooks.driver.findElements(By.cssSelector("select[name=\"DateOfBirthDay\"] option"));}
 
     public WebElement Month_dropdown(){
         return Hooks.driver.findElement(By.cssSelector("select[name=\"DateOfBirthMonth\"]"));
     }
+   // public List<WebElement> Birth_Month(){
+    //    return Hooks.driver.findElements(By.cssSelector("select[name=\"DateOfBirthMonth\"] option"));}
 
     public WebElement year_dropdown(){
         return Hooks.driver.findElement(By.cssSelector("select[name=\"DateOfBirthYear\"]"));
     }
-
+  //  public List<WebElement> Birth_year(){
+      //  return Hooks.driver.findElements(By.cssSelector("select[name=\"DateOfBirthYear\"] option"));}
 }

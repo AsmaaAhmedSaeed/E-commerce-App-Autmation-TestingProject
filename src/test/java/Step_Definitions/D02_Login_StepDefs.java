@@ -14,11 +14,14 @@ public class D02_Login_StepDefs {
     // apply POM Design Pattern
     P02_Login login = new P02_Login();
 
+// you could also use constructor
+// public D01_loginStepDef() {}
+
     @Given("user go to login page")
     public void go_to_login_page() throws InterruptedException {
         login.loginBtn().click();
     }
-
+    // Data Driven testing + syntax el variable mn el feature
     @When("^user login with \"([^\"]*)\" \"([^\"]*)\" and \"([^\"]*)\"$")
     public void valid_username_password(String type, String username, String password)
     {
@@ -35,6 +38,9 @@ public class D02_Login_StepDefs {
     @Then("user login to the system successfully")
     public void success_login()
     {
-        Assert.assertTrue(login.myAccountTab().isDisplayed());
+        // Please remove below line and do it on your own
+        WebElement myAccount =Hooks.driver.findElement(By.cssSelector("a[class=\"ico-account\"]"));
+        Assert.assertTrue(myAccount.isDisplayed());
+
     }
 }

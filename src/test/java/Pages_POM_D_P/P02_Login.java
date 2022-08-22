@@ -20,9 +20,4 @@ public class P02_Login {
     {
         return   Hooks.driver.findElement(By.id("Password"));
     }
-
-    public WebElement myAccountTab()
-    {
-        return   Hooks.driver.findElement(By.cssSelector("a[href=\"/customer/info\"]"));
-    }
 }

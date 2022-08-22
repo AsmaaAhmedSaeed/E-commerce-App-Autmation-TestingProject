@@ -13,7 +13,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class D01_Register_StepDefs {
     // apply POM Design Pattern
     P01_Register register =new P01_Register();
-// Scenario: user could register with Only Mandatory Data valid first name last name email password and confirm_password
+
     @Given("Go to Register Page")
     public void register_page()
     {
@@ -38,25 +38,13 @@ public class D01_Register_StepDefs {
     @Then("System direct user to profile page")
     public void success_register()
     {
-        String msg = register.pageBody().getText();
-
-        if (msg.contains("registration completed"))
-        {
-            Assert.assertTrue(register.result().isDisplayed());
-            Assert.assertTrue(register.result().getText().contains("Your registration completed"));
-        }
-        else if(msg.contains("email already exists"))
-        {
-            Assert.assertTrue(register.messageError().isDisplayed());
-            Assert.assertTrue(register.messageError().getText().contains("email already exists"));
-        }
-
-        else {
-            Assert.assertTrue(false, "different message is displayed");
-        }
+        //System.out.println(register.success_register().getText());
+        Assert.assertTrue(register.success_register().getText().toLowerCase().contains("continue"));
+        // Assert.assertTrue(Register.success_register().getText().contains("CONTINUE"));
 
     }
- //Scenario: user could register with valid necessary and optional data
+
+    //Scenario: user could register with valid necessary and optional data
     @When("user select female gender")
     public void select_female_gender(){
      register.Female_gender().click();
