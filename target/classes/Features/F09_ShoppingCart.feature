@@ -6,6 +6,8 @@ Feature: F09_Shopping cart | logged user could add products to shopping cart
     Then phone product will added to shopping cart
 
 
+
+
   Scenario: products will added to shopping cart when user click on add to shopping cart from detailed page
 
     When user clicks on add to cart button from HOME page
