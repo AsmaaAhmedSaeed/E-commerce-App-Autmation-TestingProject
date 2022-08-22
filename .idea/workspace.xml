@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8737bd5e-8ecc-4c47-88c6-bd7f144e1b59" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27Is4Eakx8DskSdGJWotRbnP4yu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/Features" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.23649338" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\FWD_Udacity\E-commerce project_Asmaa\FWD_NopCommerce\src\main\resources\Features" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Step_Definitions" />
+      <recent name="Pages_POM_D_P" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: products will added to shopping cart when user click on add to shopping cart from detailed page">
+    <configuration name="Feature: F07_FollowUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/F07_FollowUs.feature" />
+      <option name="GLUE" value="Step_Definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Asmaa_FinalProject_NopCommerce" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F07_FollowUs" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: products will added to shopping cart when user click on add to shopping cart from detailed page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/F09_ShoppingCart.feature" />
+      <option name="GLUE" value="Step_Definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Asmaa_FinalProject_NopCommerce" />
+      <option name="NAME_FILTER" value="^products will added to shopping cart when user click on add to shopping cart from detailed page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^products will added to shopping cart when user click on add to shopping cart from detailed page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: products will added to shopping cart when user click on add to shopping cart from detailed page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user could checkout his order when he fill all required data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/F10_CheckOut.feature" />
+      <option name="GLUE" value="Step_Definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Asmaa_FinalProject_NopCommerce" />
+      <option name="NAME_FILTER" value="^user could checkout his order when he fill all required data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user could checkout his order when he fill all required data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user could checkout his order when he fill all required data" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user could register with valid necessary and optional data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/F01_register.feature" />
+      <option name="GLUE" value="Step_Definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Asmaa_FinalProject_NopCommerce" />
+      <option name="NAME_FILTER" value="^user could register with valid necessary and optional data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user could register with valid necessary and optional data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user could register with valid necessary and optional data" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: when user press on facebook icon,it should open the corresponding website" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/F07_FollowUs.feature" />
+      <option name="GLUE" value="Step_Definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Asmaa_FinalProject_NopCommerce" />
+      <option name="NAME_FILTER" value="^when user press on facebook icon\,it should open the corresponding website$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^when user press on facebook icon\,it should open the corresponding website$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: when user press on facebook icon,it should open the corresponding website" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: user could register with valid necessary and optional data" />
+      <item itemvalue="Cucumber Java.Scenario: when user press on facebook icon,it should open the corresponding website" />
+      <item itemvalue="Cucumber Java.Feature: F07_FollowUs" />
+      <item itemvalue="Cucumber Java.Scenario: user could checkout his order when he fill all required data" />
+      <item itemvalue="Cucumber Java.Scenario: products will added to shopping cart when user click on add to shopping cart from detailed page" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: products will added to shopping cart when user click on add to shopping cart from detailed page" />
+        <item itemvalue="Cucumber Java.Scenario: user could register with valid necessary and optional data" />
+        <item itemvalue="Cucumber Java.Scenario: user could checkout his order when he fill all required data" />
+        <item itemvalue="Cucumber Java.Feature: F07_FollowUs" />
+        <item itemvalue="Cucumber Java.Scenario: when user press on facebook icon,it should open the corresponding website" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8737bd5e-8ecc-4c47-88c6-bd7f144e1b59" name="Changes" comment="" />
+      <created>1649018743133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649018743133</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

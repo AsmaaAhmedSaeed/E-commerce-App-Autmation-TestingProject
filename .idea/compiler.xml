@@ -6,9 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FWD_NopCommerce" />
         <module name="Asmaa_FinalProject_NopCommerce" />
-        <module name="E-Commerce_Project_0.1" />
-        <module name="Asmaa_E-Commerce_Project" />
       </profile>
     </annotationProcessing>
   </component>
